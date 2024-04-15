@@ -5,6 +5,7 @@ function Stats({stats}) {
             <Stat number={stats.numberOfCharacters} label='Characters'/>
             <Stat number={stats.numberOfWords} label='Words'/>
             <Stat number={stats.numberOfSentences} label='Sentences' />
+            <Stat number={stats.numberOfPages} label='Pages'/>
             <Stat number={stats.instagramCharactersLeft} label='Instagram'/>
             <Stat number={stats.xCharactersLeft} label='X'/>
         </section>

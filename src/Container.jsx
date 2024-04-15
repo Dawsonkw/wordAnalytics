@@ -10,7 +10,8 @@ function Container() {
         numberOfCharacters: text.length,
         numberOfSentences: text.split(/[.!?]/).length - 1,
         instagramCharactersLeft: INSTAGRAM_MAX_CHARACTERS- text.length,
-        xCharactersLeft: X_MAX_CHARACTERS - text.length
+        xCharactersLeft: X_MAX_CHARACTERS - text.length,
+        numberOfPages: Math.ceil(text.length / 1500),
     }
     
 
